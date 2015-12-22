@@ -14,6 +14,7 @@ How the run_analytics.R script running
 1. Make final tidy data by using melt() & cast() function
 
 1. mainly used function is belowed
+
 * melt() - reshape data layout to vertical
 * cast() - reshape to grouped
 * gsub() - replace all matcheds of string
