@@ -11,6 +11,7 @@ How the run_analytics.R script running
 
 1. Set column names
 
+## Make tidy result file
 1. Make final tidy data by using melt() & cast() function
 
 1. mainly used function is belowed
