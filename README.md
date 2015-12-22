@@ -1,7 +1,7 @@
-How the run_analytics.R script running
+How the run_analytics.R script work
 ===========
 
-## Read lables
+## Read labels
 1. Read Activity type from "activity_labels.txt" files by using f_activityLabels() function
 
 ## Read test and training data
