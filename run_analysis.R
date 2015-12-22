@@ -73,8 +73,8 @@ f_tidyData = function(merge_label_data) {
   dcast(melted_data, ActivityName + SubjectID ~ variable, mean)
 }
 
-#Getting the clean tidy dataset
-tidy_data_file =function(fname){
+# Getting the clean tidy dataset
+tidy_data_file = function(fname){
   tidy_data = f_tidyData(merge_label_data())
   write.table(tidy_data, fname)
 }
